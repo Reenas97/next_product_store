@@ -1,0 +1,31 @@
+.categoryItem{
+    background: #802c6e;
+    border-radius: 10px;
+    text-align: center;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoryItem a{
+    text-decoration: none;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.categoryItem h2{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.categoryItem:hover{
+    transition: all ease 0.3s;
+    opacity: 0.9;
+}
